@@ -1,0 +1,23 @@
+.body {
+  max-width: 100%;
+}
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 24px;
+  align-items: center;
+}
+.header-content h1 {
+  font-size: 36px;
+}
+.start {
+  font-size: 18px;
+  background-color: #13183f;
+  border-radius: 28px;
+  text-align: center;
+}
+.start p {
+  text-align: center;
+  padding: 14px 31px 14px 32px;
+  color: #ffffff;
+}
