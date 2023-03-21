@@ -1,23 +1,53 @@
-.body {
+body {
+  padding-left: 165px;
   max-width: 100%;
 }
 .header-content {
   display: flex;
-  justify-content: space-around;
   margin-top: 24px;
   align-items: center;
+  width: 100%;
 }
 .header-content h1 {
   font-size: 36px;
+  color: #13183f;
 }
 .start {
   font-size: 18px;
   background-color: #13183f;
   border-radius: 28px;
   text-align: center;
+  margin-left: 831.04px;
 }
 .start p {
   text-align: center;
   padding: 14px 31px 14px 32px;
   color: #ffffff;
+}
+section {
+  margin-top: 185.57px;
+}
+.skills h1 {
+  font-size: 56px;
+  color: #13183f;
+  width: 457px;
+}
+.skills p {
+  font-size: 18px;
+  width: 445px;
+  color: #83869a;
+  line-height: 28px;
+  margin-top: 29px;
+}
+.get-started {
+  background-color: #f02aa6;
+  display: inline-block;
+  border-radius: 31.5px;
+  font-size: 18px;
+  padding: 19px 31px 16px 32px;
+  color: #ffffff;
+  margin-top: 40px;
+}
+.box-container {
+  display: flex;
 }
