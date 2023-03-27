@@ -1,5 +1,5 @@
 body {
-  padding-left: 165px;
+  padding-left: 107px;
   max-width: 100%;
 }
 .header-content {
@@ -50,4 +50,60 @@ section {
 }
 .box-container {
   display: flex;
+  flex-wrap: wrap;
+}
+.girl-image {
+  position: relative;
+  margin-left: 249.26px;
+}
+.girl-image .rectangle {
+  position: absolute;
+  bottom: -162px;
+}
+
+.girl-image .girl {
+  position: absolute;
+  border-radius: 158.5px;
+  object-fit: cover;
+  bottom: -162px;
+  width: 317px;
+  height: 560px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+.girl-image .course {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 15px;
+  bottom: -6px;
+  right: -66px;
+}
+
+.course h1 {
+  font-size: 16px;
+  color: #83869a;
+  padding: 20px 72px 0px 24px;
+}
+.course h2 {
+  font-size: 40px;
+  color: #13183f;
+  margin-top: 2px;
+  padding: 0px 72px 20px 24px;
+}
+.girl-image .members {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 15px;
+  left: 275px;
+  top: -40px;
+}
+.members h1 {
+  font-size: 16px;
+  color: #83869a;
+  padding: 20px 57px 0px 24px;
+}
+.members h2 {
+  font-size: 40px;
+  color: #13183f;
+  margin-top: 2px;
+  padding: 0px 59px 20px 24px;
 }
