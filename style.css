@@ -4,13 +4,10 @@ body {
 }
 .header-content {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 24px;
   align-items: center;
   width: 100%;
-}
-.header-content h1 {
-  font-size: 36px;
-  color: #13183f;
 }
 .start {
   font-size: 18px;
@@ -106,4 +103,142 @@ section {
   color: #13183f;
   margin-top: 2px;
   padding: 0px 59px 20px 24px;
+}
+.most-popular-courses {
+  display: flex;
+  margin-top: 250px;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
+.check-courses {
+  border-radius: 15px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  width: 350px;
+  height: 322px;
+  align-items: center;
+}
+.check-courses p {
+  color: #ffffff;
+  font-size: 32px;
+  padding: 64px 32px 138px 32px;
+  width: 286px;
+  height: 120px;
+}
+.animation {
+  border-radius: 15px;
+  margin-left: 30px;
+  width: 350px;
+  height: 322px;
+}
+.animation h1 {
+  margin-top: 32px;
+  color: #13183f;
+  font-size: 24px;
+}
+.animation p {
+  margin-top: 24px;
+  font-size: 18px;
+  color: #83869a;
+  width: 286px;
+  height: 112px;
+}
+.animation h6 {
+  margin-top: 24px;
+  font-size: 18px;
+  color: #f74780;
+}
+.design {
+  border-radius: 15px;
+  margin-left: 30px;
+  width: 350px;
+  height: 322px;
+}
+.design h1 {
+  margin-top: 32px;
+  color: #13183f;
+  font-size: 24px;
+}
+.design p {
+  margin-top: 24px;
+  font-size: 18px;
+  color: #83869a;
+  width: 286px;
+  height: 84px;
+}
+.design h6 {
+  margin-top: 24px;
+  font-size: 18px;
+  color: #f74780;
+}
+.photography {
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-top: 56px;
+  width: 350px;
+  height: 322px;
+}
+.photography h1 {
+  margin-top: 32px;
+  color: #13183f;
+  font-size: 24px;
+}
+.photography p {
+  margin-top: 24px;
+  font-size: 18px;
+  color: #83869a;
+  width: 286px;
+  height: 84px;
+}
+.photography h6 {
+  margin-top: 56px;
+  font-size: 18px;
+  color: #f74780;
+}
+.crypto {
+  border-radius: 15px;
+  margin-top: 56px;
+  margin-left: 30px;
+  width: 350px;
+  height: 322px;
+}
+.crypto h1 {
+  margin-top: 32px;
+  color: #13183f;
+  font-size: 24px;
+}
+.crypto p {
+  margin-top: 24px;
+  font-size: 18px;
+  color: #83869a;
+  width: 286px;
+  height: 112px;
+}
+.crypto h6 {
+  margin-top: 24px;
+  font-size: 18px;
+  color: #f74780;
+}
+.business {
+  border-radius: 15px;
+  margin-top: 56px;
+  margin-left: 30px;
+  width: 350px;
+  height: 322px;
+}
+.business h1 {
+  margin-top: 32px;
+  color: #13183f;
+  font-size: 24px;
+}
+.business p {
+  margin-top: 24px;
+  font-size: 18px;
+  color: #83869a;
+  width: 286px;
+  height: 112px;
+}
+.business h6 {
+  margin-top: 24px;
+  font-size: 18px;
+  color: #f74780;
 }
